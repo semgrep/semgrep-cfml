@@ -1,0 +1,88 @@
+File: semgrep-grammars/src/tree-sitter-cfml/LICENSE
+Git repo name: tree-sitter-cfml
+Latest commit in repo: 5279bde9b31d54efa68efb77a4b18ee9508518e4
+Last change in file:
+  commit 73bb4d176619ccccc7ceaf7b5b2a17229cd46afc
+  Author: Gavin Baumanis <beau@pal.care>
+  Date:   Tue Mar 17 16:10:03 2026 +1100
+  
+      Initial commit cfquery-dialect feature
+---
+File: semgrep-grammars/src/tree-sitter-cfml/cfml/grammar.js
+Git repo name: tree-sitter-cfml
+Latest commit in repo: 5279bde9b31d54efa68efb77a4b18ee9508518e4
+Last change in file:
+  commit 44e9c441b4b0f290e9a8969dfa8c0f2bdefbba32
+  Author: Gareth Eddies <ghedwards@gmail.com>
+  Date:   Mon Jul 22 08:15:12 2024 +1000
+  
+      Major refactor to support a hybrid "cfhtml" syntax with support for single hashes
+---
+File: semgrep-grammars/src/tree-sitter-cfml/cfscript/grammar.js
+Git repo name: tree-sitter-cfml
+Latest commit in repo: 5279bde9b31d54efa68efb77a4b18ee9508518e4
+Last change in file:
+  commit 70952e28e07675674ac126425fd674dabc0f1bed
+  Author: Gareth Edwards <ghedwards@gmail.com>
+  Date:   Tue Jun 2 13:43:27 2026 +1000
+  
+      Hash empty fixes
+---
+File: semgrep-grammars/src/tree-sitter-cfml/cfquery/grammar.js
+Git repo name: tree-sitter-cfml
+Latest commit in repo: 5279bde9b31d54efa68efb77a4b18ee9508518e4
+Last change in file:
+  commit 21d28b5a4827139350596c2ab6ef773f3a53465d
+  Author: Gareth Edwards <ghedwards@gmail.com>
+  Date:   Wed Apr 29 16:39:13 2026 +1000
+  
+      Move cfquery grammar into common
+      
+      - moved cfquery grammar into common with appropriate inclusion / exclusion of rules
+---
+File: semgrep-grammars/src/tree-sitter-cfml/common/define-grammar.js
+Git repo name: tree-sitter-cfml
+Latest commit in repo: 5279bde9b31d54efa68efb77a4b18ee9508518e4
+Last change in file:
+  commit a671a06f054b4a97184cea2d54937fda479ff7b5
+  Author: Gareth Edwards <ghedwards@gmail.com>
+  Date:   Tue Jun 2 14:14:44 2026 +1000
+  
+      Fix self closing dynamic tags
+---
+File: semgrep-grammars/src/semgrep-cfml/cfml/grammar.js
+Git repo name: athens
+Latest commit in repo: 6af01605d8d8c4663e6b8f4b6610fa9e0d806704
+Last change in file:
+  commit 6af01605d8d8c4663e6b8f4b6610fa9e0d806704
+  Author: Gareth Edwards <ghedwards@gmail.com>
+  Date:   Thu Jun 18 01:43:15 2026 +1000
+  
+      Add CFML language support (#604)
+      
+      Added grammars and tests for cfml, cfscript, and cfquery
+---
+File: semgrep-grammars/src/semgrep-cfml/cfscript/grammar.js
+Git repo name: athens
+Latest commit in repo: 6af01605d8d8c4663e6b8f4b6610fa9e0d806704
+Last change in file:
+  commit 6af01605d8d8c4663e6b8f4b6610fa9e0d806704
+  Author: Gareth Edwards <ghedwards@gmail.com>
+  Date:   Thu Jun 18 01:43:15 2026 +1000
+  
+      Add CFML language support (#604)
+      
+      Added grammars and tests for cfml, cfscript, and cfquery
+---
+File: semgrep-grammars/src/semgrep-cfml/cfquery/grammar.js
+Git repo name: athens
+Latest commit in repo: 6af01605d8d8c4663e6b8f4b6610fa9e0d806704
+Last change in file:
+  commit 6af01605d8d8c4663e6b8f4b6610fa9e0d806704
+  Author: Gareth Edwards <ghedwards@gmail.com>
+  Date:   Thu Jun 18 01:43:15 2026 +1000
+  
+      Add CFML language support (#604)
+      
+      Added grammars and tests for cfml, cfscript, and cfquery
+---
